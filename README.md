@@ -5,324 +5,373 @@ When I'm not committing projects to my github, I like to track my leetcoding pro
 
 ---
 
-
-
 ## Summary
 
 | **Section**               | **Done** | **Total** |
 |---------------------------|:--------:|:---------:|
-| Arrays & Hashing          | 9    | 9     |
-| Two Pointers              | 5      | 5         |
-| Sliding Window            | 6     | 6         |
-| Stack                     | 7   |  7     |
-| Binary Search             | 7  | 7        |
-| Linked List               | 11       | 11         |
-| Trees                     | 14    | 14        |
-| Tries                     | 3      | 3        |
-| Backtracking              | 9   | 9        |
-| Heap / Priority Queue     | 7   | 7      |
-| Graphs                    | 1        | 9         |
-| Advanced Graph            | 0        | 3         |
-| 1D Dynamic Programming    | 0        | 7         |
-| 2D Dynamic Programming    | 0        | 6         |
-| Greedy                    | 0        | 8         |
-| Intervals                 | 0        | 5         |
-| Math & Geometry           | 0        | 4         |
-| Bit Manipulation          | 0        | 5         |
-| **Grand Total**           | **0**    | **150**   |
+| Arrays & Hashing          | 25       | 25        |
+| Two Pointers              | 12       | 12        |
+| Sliding Window            | 7        | 7         |
+| Stack                     | 15       | 15        |
+| Binary Search             | 15       | 15        |
+| Linked List               | 12       | 12        |
+| Trees                     | 20       | 20        |
+| Tries                     | 3        | 3         |
+| Backtracking              | 9        | 9         |
+| Heap / Priority Queue     | 8        | 8         |
+| Graphs                    | 13       | 13        |
+| Advanced Graphs           | 6        | 6         |
+| 1D Dynamic Programming    | 14       | 14        |
+| 2D Dynamic Programming    | 11       | 11        |
+| Greedy                    | 9        | 9         |
+| Intervals                 | 6        | 6         |
+| Math & Geometry           | 7        | 7         |
+| Bit Manipulation          | 4        | 4         |
+| **Grand Total**           | **196**  | **196**   |
 
 ---
 
 ## Table of Contents
 
-1. [Arrays & Hashing](#arrays--hashing)  
-2. [Two Pointers](#two-pointers)  
-3. [Sliding Window](#sliding-window)  
-4. [Stack](#stack)  
-5. [Binary Search](#binary-search)  
-6. [Linked List](#linked-list)  
-7. [Trees](#trees)  
-8. [Tries](#tries)  
-9. [Backtracking](#backtracking)  
-10. [Heap / Priority Queue](#heap--priority-queue)  
-11. [Graphs](#graphs)  
-12. [Advanced Graph](#advanced-graph)  
-13. [1D Dynamic Programming](#1d-dynamic-programming)  
-14. [2D Dynamic Programming](#2d-dynamic-programming)  
-15. [Greedy](#greedy)  
-16. [Intervals](#intervals)  
-17. [Math & Geometry](#math--geometry)  
-18. [Bit Manipulation](#bit-manipulation)  
+1. [Arrays & Hashing](#arrays--hashing)
+2. [Two Pointers](#two-pointers)
+3. [Sliding Window](#sliding-window)
+4. [Stack](#stack)
+5. [Binary Search](#binary-search)
+6. [Linked List](#linked-list)
+7. [Trees](#trees)
+8. [Tries](#tries)
+9. [Backtracking](#backtracking)
+10. [Heap / Priority Queue](#heap--priority-queue)
+11. [Graphs](#graphs)
+12. [Advanced Graphs](#advanced-graphs)
+13. [1D Dynamic Programming](#1d-dynamic-programming)
+14. [2D Dynamic Programming](#2d-dynamic-programming)
+15. [Greedy](#greedy)
+16. [Intervals](#intervals)
+17. [Math & Geometry](#math--geometry)
+18. [Bit Manipulation](#bit-manipulation)
 
 ---
 
-## Arrays & Hashing (9) - NeetCode 150 ✅
+## Arrays & Hashing
 
-| #   | Problem                                                                                          | Status | Solution |
-|-----|--------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                    |   ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/ContainsDuplicate.py.txt) |
-| 2   | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)                              |   ✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/ValidAnagram.py.txt) |
-| 3   | [1. Two Sum](https://leetcode.com/problems/two-sum/)                                            |   ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/TwoSum.py.txt) |
-| 4   | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)                              |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/GroupAnagrams.py) |
-| 5   | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           |  ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/TopKMostFrequentElements) |
-| 6   | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/ProductsofArrayExceptSelf.py) |
-| 7   | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                  | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/ValidSudoku.py) |
-| 8   | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/LongestConsecutiveSequence.py) |
-| 9   | [271. Encode and Decode Strings (Premium)](https://leetcode.com/problems/encode-and-decode-strings/) |  ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/EncodeandDecodeString.py) |
-
-
-## Additional Neetcode 250 Problems
-| #   | Problem                                                                                          | Status | Solution |
-|-----|--------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)                    |   ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/ConcatenationOfArray.py) |
-| 2.   | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                    |   ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/LongestCommonPrefix.py) |
-| 3.   | [27. Remove Element](https://leetcode.com/problems/remove-element/)                    |   ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/RemoveElement.py) |
-| 4.   | [27. Majority Element](https://leetcode.com/problems/majority-element/)                    |   ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Arrays%20%26%20Hashing/MajorityElement.py) |
-
-
----
-
-## Two Pointers (5) ✅
-
-| #   | Problem                                                                                         | Status | Solution |
-|-----|-------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                       | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/TwoPointers/ValidPalindrome.py) |
-| 2   | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                           | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/tree/main/TwoPointers/TwoSumII.py) |
-| 3   | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)       | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/TwoPointers/ContainerwithMostWater.py) |
-| 4   | [15. 3Sum](https://leetcode.com/problems/3sum/)                                                | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/TwoPointers/ThreeSum.py) |
-| 5   | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                   | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/TwoPointers/TrappingRainWater.py) |
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Duplicate Integer](https://neetcode.io/problems/duplicate-integer) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/duplicate-integer) |
+| 2  | [Is Anagram](https://neetcode.io/problems/is-anagram) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/is-anagram) |
+| 3  | [Two Integer Sum](https://neetcode.io/problems/two-integer-sum) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/two-integer-sum) |
+| 4  | [Anagram Groups](https://neetcode.io/problems/anagram-groups) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/anagram-groups) |
+| 5  | [Top K Elements in List](https://neetcode.io/problems/top-k-elements-in-list) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/top-k-elements-in-list) |
+| 6  | [Products of Array Discluding Self](https://neetcode.io/problems/products-of-array-discluding-self) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/products-of-array-discluding-self) |
+| 7  | [Valid Sudoku](https://neetcode.io/problems/valid-sudoku) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/valid-sudoku) |
+| 8  | [Longest Consecutive Sequence](https://neetcode.io/problems/longest-consecutive-sequence) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence) |
+| 9  | [String Encode and Decode](https://neetcode.io/problems/string-encode-and-decode) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/string-encode-and-decode) |
+| 10 | [Concatenation of Array](https://neetcode.io/problems/concatenation-of-array) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/concatenation-of-array) |
+| 11 | [Longest Common Prefix](https://neetcode.io/problems/longest-common-prefix) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/longest-common-prefix) |
+| 12 | [Remove Element](https://neetcode.io/problems/remove-element) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/remove-element) |
+| 13 | [Majority Element](https://neetcode.io/problems/majority-element) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/majority-element) |
+| 14 | [Contains Duplicate II](https://neetcode.io/problems/contains-duplicate-ii) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/contains-duplicate-ii) |
+| 15 | [Sort an Array](https://neetcode.io/problems/sort-an-array) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/sort-an-array) |
+| 16 | [Subarray Sum Equals K](https://neetcode.io/problems/subarray-sum-equals-k) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/subarray-sum-equals-k) |
+| 17 | [Remove Duplicates from Sorted Array](https://neetcode.io/problems/remove-duplicates-from-sorted-array) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/remove-duplicates-from-sorted-array) |
+| 18 | [Plus One](https://neetcode.io/problems/plus-one) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/plus-one) |
+| 19 | [Merge Sorted Array](https://neetcode.io/problems/merge-sorted-array) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/merge-sorted-array) |
+| 20 | [Majority Element II](https://neetcode.io/problems/majority-element-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/majority-element-ii) |
+| 21 | [First Missing Positive](https://neetcode.io/problems/first-missing-positive) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/first-missing-positive) |
+| 22 | [Design HashSet](https://neetcode.io/problems/design-hashset) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/design-hashset) |
+| 23 | [Design HashMap](https://neetcode.io/problems/design-hashmap) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/design-hashmap) |
+| 24 | [Range Sum Query 2D Immutable](https://neetcode.io/problems/range-sum-query-2d-immutable) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/range-sum-query-2d-immutable) |
+| 25 | [Set Zeroes in Matrix](https://neetcode.io/problems/set-zeroes-in-matrix) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/set-zeroes-in-matrix) |
 
 ---
 
-## Sliding Window (6)  ✅
+## Two Pointers
 
-| #   | Problem                                                                                                      | Status | Solution |
-|-----|--------------------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)      | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/SlidingWindow/BestTimetoBuyAndSellStock.py) |
-| 2   | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ✅ | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/SlidingWindow/LongestSubstringWithoutRepeatedCharacters.py) |
-| 3   | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | ✅| [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/SlidingWindow/LongestSubstringWithoutRepeatedCharacters.py) |
-| 4   | [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)                          | ✅| [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/SlidingWindow/PermutationInString.py) |
-| 5   | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                      | ✅| [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/SlidingWindow/MinimumWindowSubstring.py) |
-| 6   | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                        | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/SlidingWindow/SlidingWindowMaximum.py) |
-
----
-
-## Stack (7) ✅ 
-
-| #   | Problem                                                                                         | Status | Solution |
-|-----|-------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                      | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Stacks/ValidParentheses.py) |
-| 2   | [155. Min Stack](https://leetcode.com/problems/min-stack/)                                     | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Stacks/MinStack.py) |
-| 3   | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | ✅   | [Solution](http://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Stacks/EvaluateReversePolishNotation.py) |
-| 4   | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)                              | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Stacks/GenerateParentheses.py) |
-| 5   | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                 | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Stacks/DailyTemperatures.py) |
-| 6   | [853. Car Fleet](https://leetcode.com/problems/car-fleet/description/)                 | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Stacks/CarFleet.py) |
-| 7  | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Stacks/LargestRectangleInHistogram.py) |
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Is Palindrome](https://neetcode.io/problems/is-palindrome) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/is-palindrome) |
+| 2  | [Two Integer Sum II](https://neetcode.io/problems/two-integer-sum-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/two-integer-sum-ii) |
+| 3  | [Three Integer Sum](https://neetcode.io/problems/three-integer-sum) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/three-integer-sum) |
+| 4  | [Max Water Container](https://neetcode.io/problems/max-water-container) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/max-water-container) |
+| 5  | [Trapping Rain Water](https://neetcode.io/problems/trapping-rain-water) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/trapping-rain-water) |
+| 6  | [Reverse String](https://neetcode.io/problems/reverse-string) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/reverse-string) |
+| 7  | [Valid Palindrome II](https://neetcode.io/problems/valid-palindrome-ii) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/valid-palindrome-ii) |
+| 8  | [4Sum](https://neetcode.io/problems/4sum) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/4sum) |
+| 9  | [Boats to Save People](https://neetcode.io/problems/boats-to-save-people) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/boats-to-save-people) |
+| 10 | [Sort Colors](https://neetcode.io/problems/sort-colors) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/sort-colors) |
+| 11 | [Rotate Array](https://neetcode.io/problems/rotate-array) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/rotate-array) |
+| 12 | [Merge Strings Alternately](https://neetcode.io/problems/merge-strings-alternately) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/merge-strings-alternately) |
 
 ---
 
-## Binary Search (7)  ✅
+## Sliding Window
 
-| #   | Problem                                                                                     | Status | Solution |
-|-----|---------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [704. Binary Search](https://leetcode.com/problems/binary-search/)                         | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/BinarySearch/BinarySearch.py) |
-| 2   | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                 |✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/BinarySearch/SearchA2DMatrix.py) |
-| 3   | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)                 |✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/BinarySearch/KokoEatingBananas.py) |
-| 4   | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/BinarySearch/SearchinRotatedSortedArray.py) |
-| 5  | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | ✅ | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/BinarySearch/FindMinimumofRotatedSortedArray.py) |
-| 6 | [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/description/) | ✅ | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/BinarySearch/TimeBasedKey-ValueStore.py) |
-| 7 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | ✅ | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/BinarySearch/MedianofTwoSortedArrays.py)
-
----
-
-## Linked List (11)  ✅
-
-| #   | Problem                                                                                   | Status | Solution |
-|-----|-------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)           | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/ReverseLinkedList.py) |
-| 2   | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)               | ✅        | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/LinkedListCycle.py) |
-| 3   | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)       | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/MergeLinkedLists.py) |
-| 4   | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/RemoveNodeFromEndOfLinkedList.py) |
-| 5   | [143. Reorder List](https://leetcode.com/problems/reorder-list/)                         | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/ReorderLinkedList.py) |
-| 6   | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)           | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/MergeKSortedLists.py) |
-| 7 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) |✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/CopyListWithRandomPointer.py)
-| 8 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/tree/main/LinkedLists)
-| 9 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) |✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/FindDuplicateNumber.py)
-| 10 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) |✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/LRUCache.py)
-| 11 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) |✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/LinkedLists/ReverseNodesInKGroup.py)
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Buy and Sell Crypto](https://neetcode.io/problems/buy-and-sell-crypto) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/buy-and-sell-crypto) |
+| 2  | [Longest Substring Without Duplicates](https://neetcode.io/problems/longest-substring-without-duplicates) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/longest-substring-without-duplicates) |
+| 3  | [Longest Repeating Substring With Replacement](https://neetcode.io/problems/longest-repeating-substring-with-replacement) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/longest-repeating-substring-with-replacement) |
+| 4  | [Permutation String](https://neetcode.io/problems/permutation-string) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/permutation-string) |
+| 5  | [Minimum Window With Characters](https://neetcode.io/problems/minimum-window-with-characters) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/minimum-window-with-characters) |
+| 6  | [Sliding Window Maximum](https://neetcode.io/problems/sliding-window-maximum) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/sliding-window-maximum) |
+| 7  | [Minimum Size Subarray Sum](https://neetcode.io/problems/minimum-size-subarray-sum) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/minimum-size-subarray-sum) |
 
 ---
 
-## Trees (14) ✅
+## Stack
 
-| #   | Problem                                                                                             | Status | Solution |
-|-----|-----------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)    | ✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/DepthofBinaryTree.py.txt) |
-| 2   | [100. Same Tree](https://leetcode.com/problems/same-tree/)                                          | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/SameBinaryTree) |
-| 3   | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                        | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/InvertBinaryTree.py.txt) |
-| 4   | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)              | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/DiameterofBinaryTree.py) |
-| 5   | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) | ✅ | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/BalancedBinaryTree.py) |
-| 6   | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/SubtreeofAnotherTree) |
-| 7   | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/LowestCommonAncestor) |
-| 8   | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/BinaryTreeLevelOrderTraversal) |
-| 9   | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) | ✅   | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/RightSideofBinaryTree.py) |
-| 10  | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)       | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/ValidateBinaryTree.py) |
-| 11  | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/KthSmallestIntegerinBST) |
-| 12  | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | ✅ | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/SerializeandDeserializeBinaryTree.py) |
-| 13  | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)    |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/MaximumPathSum.py) |
-| 14   | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | ✅ | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trees/ConstructBinaryTreefromPreorderandInorder.py) |
-
----
-
-## Tries (3) ✅
-
-| #   | Problem                                                                                       | Status | Solution |
-|-----|-----------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trie/ImplementPrefixTree.py) |
-| 2   | [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)                         | ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trie/WordDictionary.py) |
-| 3   | [212. Word Search II](https://leetcode.com/problems/word-search-ii/)                         |  ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Trie/WordSearchII.py) |
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Validate Parentheses](https://neetcode.io/problems/validate-parentheses) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/validate-parentheses) |
+| 2  | [Minimum Stack](https://neetcode.io/problems/minimum-stack) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/minimum-stack) |
+| 3  | [Evaluate Reverse Polish Notation](https://neetcode.io/problems/evaluate-reverse-polish-notation) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/evaluate-reverse-polish-notation) |
+| 4  | [Generate Parentheses](https://neetcode.io/problems/generate-parentheses) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/generate-parentheses) |
+| 5  | [Daily Temperatures](https://neetcode.io/problems/daily-temperatures) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/daily-temperatures) |
+| 6  | [Car Fleet](https://neetcode.io/problems/car-fleet) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/car-fleet) |
+| 7  | [Largest Rectangle in Histogram](https://neetcode.io/problems/largest-rectangle-in-histogram) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/largest-rectangle-in-histogram) |
+| 8  | [Baseball Game](https://neetcode.io/problems/baseball-game) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/baseball-game) |
+| 9  | [Implement Stack Using Queues](https://neetcode.io/problems/implement-stack-using-queues) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/implement-stack-using-queues) |
+| 10 | [Implement Queue Using Stacks](https://neetcode.io/problems/implement-queue-using-stacks) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/implement-queue-using-stacks) |
+| 11 | [Asteroid Collision](https://neetcode.io/problems/asteroid-collision) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/asteroid-collision) |
+| 12 | [Online Stock Span](https://neetcode.io/problems/online-stock-span) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/online-stock-span) |
+| 13 | [Decode String](https://neetcode.io/problems/decode-string) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/decode-string) |
+| 14 | [Simplify Path](https://neetcode.io/problems/simplify-path) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/simplify-path) |
+| 15 | [Design Circular Queue](https://neetcode.io/problems/design-circular-queue) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/design-circular-queue) |
 
 ---
 
-## Backtracking (9) ✅
+## Binary Search
 
-| #   | Problem                                                                                     | Status | Solution |
-|-----|---------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [78. Subsets](https://leetcode.com/problems/subsets/)                                      |  ✅     |     [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/SubsetsI.py) |
-| 2   | [78. Subsets II](https://leetcode.com/problems/subsets-ii/)                                      |  ✅  |   [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/SubsetsII.py) |
-| 3   | [46. Permutations](https://leetcode.com/problems/permutations/)                            | ✅      |     [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/Permutations.py) |
-| 4   | [79. Word Search](https://leetcode.com/problems/word-search/)                              | ✅     |      [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/WordSearch.py) |
-| 5   | [39. Combination Sum](https://leetcode.com/problems/combination-sum/)                      | ✅        |   [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/CombinationSumI.py) |
-| 6   | [40. Combination Sum II ](https://leetcode.com/problems/combination-sum-ii/description/)     | ✅        | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/CombinationSumII.py) |
-| 7   | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)      |   ✅     |   [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/PalindromePartitioning.py) |
-| 8   | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |   ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/LetterCombinationsofaPhoneNumber.py) |
-| 9   | [51. N-Queens](https://leetcode.com/problems/n-queens/)                                    | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Backtracking/NQueens.py) |
-
-
----
-
-## Heap / Priority Queue (7) ✅ 
-
-| #   | Problem                                                                                        | Status | Solution |
-|-----|------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Heaps/KthLargestElementinaStream.py) |
-| 2   | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Heaps/LastStoneWeight.py) |
-| 3   | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/description/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Heaps/KClosestPointstoOrigin.py) |
-| 4   | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Heaps/KthLargestElementinAnArray.py) |
-| 5 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Heaps/TaskScheduler.py) |
-| 6 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/description/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Heaps/DesignTwitter.py) |
-| 7 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)   |  ✅     | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Heaps/FindMedianfromDataStream.py) |
-
-> **Note:** Some problems (e.g., Top K Frequent Elements, Merge k Sorted Lists) also appear in other categories. Include them wherever you prefer.
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Binary Search](https://neetcode.io/problems/binary-search) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/binary-search) |
+| 2  | [Search 2D Matrix](https://neetcode.io/problems/search-2d-matrix) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/search-2d-matrix) |
+| 3  | [Eating Bananas](https://neetcode.io/problems/eating-bananas) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/eating-bananas) |
+| 4  | [Find Target in Rotated Sorted Array](https://neetcode.io/problems/find-target-in-rotated-sorted-array) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/find-target-in-rotated-sorted-array) |
+| 5  | [Find Minimum in Rotated Sorted Array](https://neetcode.io/problems/find-minimum-in-rotated-sorted-array) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/find-minimum-in-rotated-sorted-array) |
+| 6  | [Time Based Key Value Store](https://neetcode.io/problems/time-based-key-value-store) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/time-based-key-value-store) |
+| 7  | [Median of Two Sorted Arrays](https://neetcode.io/problems/median-of-two-sorted-arrays) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/median-of-two-sorted-arrays) |
+| 8  | [Search Insert Position](https://neetcode.io/problems/search-insert-position) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/search-insert-position) |
+| 9  | [Guess Number Higher or Lower](https://neetcode.io/problems/guess-number-higher-or-lower) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/guess-number-higher-or-lower) |
+| 10 | [Sqrt(x)](https://neetcode.io/problems/sqrtx) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/sqrtx) |
+| 11 | [Find in Mountain Array](https://neetcode.io/problems/find-in-mountain-array) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/find-in-mountain-array) |
+| 12 | [Find K Closest Elements](https://neetcode.io/problems/find-k-closest-elements) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/find-k-closest-elements) |
+| 13 | [Capacity to Ship Packages Within D Days](https://neetcode.io/problems/capacity-to-ship-packages-within-d-days) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/capacity-to-ship-packages-within-d-days) |
+| 14 | [Split Array Largest Sum](https://neetcode.io/problems/split-array-largest-sum) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/split-array-largest-sum) |
+| 15 | [Search in Rotated Sorted Array II](https://neetcode.io/problems/search-in-rotated-sorted-array-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/search-in-rotated-sorted-array-ii) |
 
 ---
 
-## Graphs (9)
+## Linked List
 
-| #   | Problem                                                                                      | Status | Solution |
-|-----|----------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)                  |  ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/NumberOfIslands.py) |
-| 2   | [133. Clone Graph](https://leetcode.com/problems/clone-graph/)                              | ✅        | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/CloneGraph.py) |
-| 3   | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) |   ✅    | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/PacificAtlanticWaterFlow.py)|
-| 4   | [207. Course Schedule](https://leetcode.com/problems/course-schedule/)                      | ✅        | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/CourseScheduleI.py) |
-| 5   | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                |  ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/CourseScheduleII.py) |
-| 6   | [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/MaxAreaOfAnIsland.py) |
-| 7   | [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/description/)                    | ✅      | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/GraphValidTree.py) |
-| 8   | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                      | ✅        | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/RottingOranges.py) |
-| 9   | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                | ✅       | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/SurroundedRegions.py) |
-| 10  | [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/)                | ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/WallsAndGates.py) |
-| 11  | [323.Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/)                | ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/NumberOfConnectedComponents.py) |
-| 12  | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)                | ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/RedundantConnection.py) |
-| 12  | [127. Word Ladder](https://leetcode.com/problems/word-ladder/)                | ✅  | [Solution](https://github.com/WafeeRahman/LeetCode-150-Solutions/blob/main/Graphs/WordLadder.py) |
-
----
-
-## Advanced Graph (3)
-
-| #   | Problem                                                                                            | Status | Solution |
-|-----|----------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)     | ❌      | [Link]() |
-| 2   | [269. Alien Dictionary (Premium)](https://leetcode.com/problems/alien-dictionary/)                | ❌      | [Link]() |
-| 3   | [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)                   | ❌      | [Link]() |
-
-> **Note:** Some lists combine "Advanced Graph" with BFS/DFS. Feel free to reorganize as you see fit.
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Reverse a Linked List](https://neetcode.io/problems/reverse-a-linked-list) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/reverse-a-linked-list) |
+| 2  | [Linked List Cycle Detection](https://neetcode.io/problems/linked-list-cycle-detection) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/linked-list-cycle-detection) |
+| 3  | [Merge Two Sorted Linked Lists](https://neetcode.io/problems/merge-two-sorted-linked-lists) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/merge-two-sorted-linked-lists) |
+| 4  | [Remove Node From End of Linked List](https://neetcode.io/problems/remove-node-from-end-of-linked-list) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/remove-node-from-end-of-linked-list) |
+| 5  | [Reorder Linked List](https://neetcode.io/problems/reorder-linked-list) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/reorder-linked-list) |
+| 6  | [Merge K Sorted Linked Lists](https://neetcode.io/problems/merge-k-sorted-linked-lists) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/merge-k-sorted-linked-lists) |
+| 7  | [Copy Linked List with Random Pointer](https://neetcode.io/problems/copy-linked-list-with-random-pointer) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/copy-linked-list-with-random-pointer) |
+| 8  | [Add Two Numbers](https://neetcode.io/problems/add-two-numbers) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/add-two-numbers) |
+| 9  | [Find Duplicate Integer](https://neetcode.io/problems/find-duplicate-integer) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/find-duplicate-integer) |
+| 10 | [LRU Cache](https://neetcode.io/problems/lru-cache) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/lru-cache) |
+| 11 | [Reverse Nodes in K-Group](https://neetcode.io/problems/reverse-nodes-in-k-group) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/reverse-nodes-in-k-group) |
+| 12 | [Reverse Linked List II](https://neetcode.io/problems/reverse-linked-list-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/reverse-linked-list-ii) |
 
 ---
 
-## 1D Dynamic Programming (7)
+## Trees
 
-| #   | Problem                                                                                   | Status | Solution |
-|-----|-------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                    | ❌      | [Link]() |
-| 2   | [198. House Robber](https://leetcode.com/problems/house-robber/)                         | ❌      | [Link]() |
-| 3   | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)                   | ❌      | [Link]() |
-| 4   | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                  | ❌      | [Link]() |
-| 5   | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | ❌      | [Link]() |
-| 6   | [91. Decode Ways](https://leetcode.com/problems/decode-ways/)                            | ❌      | [Link]() |
-| 7   | [139. Word Break](https://leetcode.com/problems/word-break/)                             | ❌      | [Link]() |
-
----
-
-## 2D Dynamic Programming (6)
-
-| #   | Problem                                                                                                | Status | Solution |
-|-----|--------------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)                                       | ❌      | [Link]() |
-| 2   | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                 | ❌      | [Link]() |
-| 3   | [221. Maximal Square](https://leetcode.com/problems/maximal-square/)                                  | ❌      | [Link]() |
-| 4   | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)                               | ❌      | [Link]() |
-| 5   | [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)                                      | ❌      | [Link]() |
-| 6   | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)         | ❌      | [Link]() |
-
----
-
-## Greedy (8)
-
-| #   | Problem                                                                                       | Status | Solution |
-|-----|-----------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [55. Jump Game](https://leetcode.com/problems/jump-game/)                                    | ❌      | [Link]() |
-| 2   | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)                              | ❌      | [Link]() |
-| 3   | [134. Gas Station](https://leetcode.com/problems/gas-station/)                               | ❌      | [Link]() |
-| 4   | [135. Candy](https://leetcode.com/problems/candy/)                                           | ❌      | [Link]() |
-| 5   | [763. Partition Labels](https://leetcode.com/problems/partition-labels/)                     | ❌      | [Link]() |
-| 6   | [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | ❌ | [Link]() |
-| 7   | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | ❌ | [Link]() |
-| 8   | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)    | ❌      | [Link]() |
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Depth of Binary Tree](https://neetcode.io/problems/depth-of-binary-tree) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/depth-of-binary-tree) |
+| 2  | [Same Binary Tree](https://neetcode.io/problems/same-binary-tree) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/same-binary-tree) |
+| 3  | [Invert a Binary Tree](https://neetcode.io/problems/invert-a-binary-tree) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/invert-a-binary-tree) |
+| 4  | [Binary Tree Diameter](https://neetcode.io/problems/binary-tree-diameter) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/binary-tree-diameter) |
+| 5  | [Balanced Binary Tree](https://neetcode.io/problems/balanced-binary-tree) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/balanced-binary-tree) |
+| 6  | [Subtree of a Binary Tree](https://neetcode.io/problems/subtree-of-a-binary-tree) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/subtree-of-a-binary-tree) |
+| 7  | [Lowest Common Ancestor in Binary Search Tree](https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/lowest-common-ancestor-in-binary-search-tree) |
+| 8  | [Level Order Traversal of Binary Tree](https://neetcode.io/problems/level-order-traversal-of-binary-tree) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/level-order-traversal-of-binary-tree) |
+| 9  | [Binary Tree Right Side View](https://neetcode.io/problems/binary-tree-right-side-view) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/binary-tree-right-side-view) |
+| 10 | [Valid Binary Search Tree](https://neetcode.io/problems/valid-binary-search-tree) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/valid-binary-search-tree) |
+| 11 | [Kth Smallest Integer in BST](https://neetcode.io/problems/kth-smallest-integer-in-bst) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/kth-smallest-integer-in-bst) |
+| 12 | [Serialize and Deserialize Binary Tree](https://neetcode.io/problems/serialize-and-deserialize-binary-tree) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/serialize-and-deserialize-binary-tree) |
+| 13 | [Binary Tree Maximum Path Sum](https://neetcode.io/problems/binary-tree-maximum-path-sum) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/binary-tree-maximum-path-sum) |
+| 14 | [Binary Tree from Preorder and Inorder Traversal](https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/binary-tree-from-preorder-and-inorder-traversal) |
+| 15 | [Count Good Nodes in Binary Tree](https://neetcode.io/problems/count-good-nodes-in-binary-tree) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/count-good-nodes-in-binary-tree) |
+| 16 | [Binary Tree Preorder Traversal](https://neetcode.io/problems/binary-tree-preorder-traversal) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/binary-tree-preorder-traversal) |
+| 17 | [Binary Tree Inorder Traversal](https://neetcode.io/problems/binary-tree-inorder-traversal) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/binary-tree-inorder-traversal) |
+| 18 | [Binary Tree Postorder Traversal](https://neetcode.io/problems/binary-tree-postorder-traversal) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/binary-tree-postorder-traversal) |
+| 19 | [Insert into a Binary Search Tree](https://neetcode.io/problems/insert-into-a-binary-search-tree) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/insert-into-a-binary-search-tree) |
+| 20 | [Delete Node in a BST](https://neetcode.io/problems/delete-node-in-a-bst) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/delete-node-in-a-bst) |
 
 ---
 
-## Intervals (5)
+## Tries
 
-| #   | Problem                                                                                       | Status | Solution |
-|-----|-----------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)                        | ❌      | [Link]() |
-| 2   | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)                        | ❌      | [Link]() |
-| 3   | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)    | ❌      | [Link]() |
-| 4   | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | ❌ | [Link]() |
-| 5   | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                     | ❌      | [Link]() |
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Implement Prefix Tree](https://neetcode.io/problems/implement-prefix-tree) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/implement-prefix-tree) |
+| 2  | [Design Word Search Data Structure](https://neetcode.io/problems/design-word-search-data-structure) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/design-word-search-data-structure) |
+| 3  | [Search for Word II](https://neetcode.io/problems/search-for-word-ii) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/search-for-word-ii) |
 
 ---
 
-## Math & Geometry (4)
+## Backtracking
 
-| #   | Problem                                                                                  | Status | Solution |
-|-----|------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)                                  | ❌      | [Link]() |
-| 2   | [67. Add Binary](https://leetcode.com/problems/add-binary/)                             | ❌      | [Link]() |
-| 3   | [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)                 | ❌      | [Link]() |
-| 4   | [48. Rotate Image](https://leetcode.com/problems/rotate-image/)                         | ❌      | [Link]() |
-
----
-
-## Bit Manipulation (5)
-
-| #   | Problem                                                                                           | Status | Solution |
-|-----|---------------------------------------------------------------------------------------------------|--------|----------|
-| 1   | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                         | ❌      | [Link]() |
-| 2   | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)                   | ❌      | [Link]() |
-| 3   | [338. Counting Bits](https://leetcode.com/problems/counting-bits/)                               | ❌      | [Link]() |
-| 4   | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                 | ❌      | [Link]() |
-| 5   | [268. Missing Number](https://leetcode.com/problems/missing-number/)                             | ❌      | [Link]() |
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Subsets](https://neetcode.io/problems/subsets) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/subsets) |
+| 2  | [Subsets II](https://neetcode.io/problems/subsets-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/subsets-ii) |
+| 3  | [Permutations](https://neetcode.io/problems/permutations) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/permutations) |
+| 4  | [Search for Word](https://neetcode.io/problems/search-for-word) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/search-for-word) |
+| 5  | [Combination Target Sum](https://neetcode.io/problems/combination-target-sum) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/combination-target-sum) |
+| 6  | [Combination Target Sum II](https://neetcode.io/problems/combination-target-sum-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/combination-target-sum-ii) |
+| 7  | [Combinations of a Phone Number](https://neetcode.io/problems/combinations-of-a-phone-number) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/combinations-of-a-phone-number) |
+| 8  | [N-Queens](https://neetcode.io/problems/n-queens) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/n-queens) |
+| 9  | [Palindromic Substrings](https://neetcode.io/problems/palindromic-substrings) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/palindromic-substrings) |
 
 ---
 
+## Heap / Priority Queue
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Kth Largest Integer in a Stream](https://neetcode.io/problems/kth-largest-integer-in-a-stream) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/kth-largest-integer-in-a-stream) |
+| 2  | [Last Stone Weight](https://neetcode.io/problems/last-stone-weight) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/last-stone-weight) |
+| 3  | [K Closest Points to Origin](https://neetcode.io/problems/k-closest-points-to-origin) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/k-closest-points-to-origin) |
+| 4  | [Kth Largest Element in an Array](https://neetcode.io/problems/kth-largest-element-in-an-array) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/kth-largest-element-in-an-array) |
+| 5  | [Task Scheduling](https://neetcode.io/problems/task-scheduling) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/task-scheduling) |
+| 6  | [Design Twitter Feed](https://neetcode.io/problems/design-twitter-feed) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/design-twitter-feed) |
+| 7  | [Find Median in a Data Stream](https://neetcode.io/problems/find-median-in-a-data-stream) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/find-median-in-a-data-stream) |
+| 8  | [Maximum Frequency Stack](https://neetcode.io/problems/maximum-frequency-stack) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/maximum-frequency-stack) |
+
+---
+
+## Graphs
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Count Number of Islands](https://neetcode.io/problems/count-number-of-islands) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/count-number-of-islands) |
+| 2  | [Clone Graph](https://neetcode.io/problems/clone-graph) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/clone-graph) |
+| 3  | [Pacific Atlantic Water Flow](https://neetcode.io/problems/pacific-atlantic-water-flow) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/pacific-atlantic-water-flow) |
+| 4  | [Course Schedule](https://neetcode.io/problems/course-schedule) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/course-schedule) |
+| 5  | [Course Schedule II](https://neetcode.io/problems/course-schedule-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/course-schedule-ii) |
+| 6  | [Max Area of Island](https://neetcode.io/problems/max-area-of-island) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/max-area-of-island) |
+| 7  | [Valid Tree](https://neetcode.io/problems/valid-tree) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/valid-tree) |
+| 8  | [Rotting Fruit](https://neetcode.io/problems/rotting-fruit) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/rotting-fruit) |
+| 9  | [Surrounded Regions](https://neetcode.io/problems/surrounded-regions) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/surrounded-regions) |
+| 10 | [Islands and Treasure](https://neetcode.io/problems/islands-and-treasure) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/islands-and-treasure) |
+| 11 | [Count Connected Components](https://neetcode.io/problems/count-connected-components) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/count-connected-components) |
+| 12 | [Redundant Connection](https://neetcode.io/problems/redundant-connection) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/redundant-connection) |
+| 13 | [Word Ladder](https://neetcode.io/problems/word-ladder) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/word-ladder) |
+
+---
+
+## Advanced Graphs
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Reconstruct Flight Path](https://neetcode.io/problems/reconstruct-flight-path) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/reconstruct-flight-path) |
+| 2  | [Min Cost to Connect Points](https://neetcode.io/problems/min-cost-to-connect-points) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/min-cost-to-connect-points) |
+| 3  | [Network Delay Time](https://neetcode.io/problems/network-delay-time) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/network-delay-time) |
+| 4  | [Swim in Rising Water](https://neetcode.io/problems/swim-in-rising-water) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/swim-in-rising-water) |
+| 5  | [Foreign Dictionary](https://neetcode.io/problems/foreign-dictionary) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/foreign-dictionary) |
+| 6  | [Cheapest Flight Path](https://neetcode.io/problems/cheapest-flight-path) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/cheapest-flight-path) |
+
+---
+
+## 1D Dynamic Programming
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Climbing Stairs](https://neetcode.io/problems/climbing-stairs) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/climbing-stairs) |
+| 2  | [House Robber](https://neetcode.io/problems/house-robber) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/house-robber) |
+| 3  | [House Robber II](https://neetcode.io/problems/house-robber-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/house-robber-ii) |
+| 4  | [Maximum Subarray](https://neetcode.io/problems/maximum-subarray) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/maximum-subarray) |
+| 5  | [Maximum Product Subarray](https://neetcode.io/problems/maximum-product-subarray) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/maximum-product-subarray) |
+| 6  | [Decode Ways](https://neetcode.io/problems/decode-ways) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/decode-ways) |
+| 7  | [Word Break](https://neetcode.io/problems/word-break) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/word-break) |
+| 8  | [Min Cost Climbing Stairs](https://neetcode.io/problems/min-cost-climbing-stairs) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/min-cost-climbing-stairs) |
+| 9  | [Coin Change](https://neetcode.io/problems/coin-change) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/coin-change) |
+| 10 | [Longest Increasing Subsequence](https://neetcode.io/problems/longest-increasing-subsequence) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/longest-increasing-subsequence) |
+| 11 | [Longest Palindromic Substring](https://neetcode.io/problems/longest-palindromic-substring) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/longest-palindromic-substring) |
+| 12 | [Partition Equal Subset Sum](https://neetcode.io/problems/partition-equal-subset-sum) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/partition-equal-subset-sum) |
+| 13 | [Count Subsequences](https://neetcode.io/problems/count-subsequences) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/count-subsequences) |
+| 14 | [Count Paths](https://neetcode.io/problems/count-paths) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/count-paths) |
+
+---
+
+## 2D Dynamic Programming
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Longest Common Subsequence](https://neetcode.io/problems/longest-common-subsequence) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/longest-common-subsequence) |
+| 2  | [Count Squares](https://neetcode.io/problems/count-squares) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/count-squares) |
+| 3  | [Target Sum](https://neetcode.io/problems/target-sum) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/target-sum) |
+| 4  | [Interleaving String](https://neetcode.io/problems/interleaving-string) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/interleaving-string) |
+| 5  | [Longest Increasing Path in Matrix](https://neetcode.io/problems/longest-increasing-path-in-matrix) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/longest-increasing-path-in-matrix) |
+| 6  | [Edit Distance](https://neetcode.io/problems/edit-distance) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/edit-distance) |
+| 7  | [Burst Balloons](https://neetcode.io/problems/burst-balloons) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/burst-balloons) |
+| 8  | [Regular Expression Matching](https://neetcode.io/problems/regular-expression-matching) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/regular-expression-matching) |
+| 9  | [Buy and Sell Crypto with Cooldown](https://neetcode.io/problems/buy-and-sell-crypto-with-cooldown) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/buy-and-sell-crypto-with-cooldown) |
+| 10 | [Coin Change II](https://neetcode.io/problems/coin-change-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/coin-change-ii) |
+| 11 | [Best Time to Buy and Sell Stock II](https://neetcode.io/problems/best-time-to-buy-and-sell-stock-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/best-time-to-buy-and-sell-stock-ii) |
+
+---
+
+## Greedy
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Jump Game](https://neetcode.io/problems/jump-game) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/jump-game) |
+| 2  | [Jump Game II](https://neetcode.io/problems/jump-game-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/jump-game-ii) |
+| 3  | [Gas Station](https://neetcode.io/problems/gas-station) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/gas-station) |
+| 4  | [Partition Labels](https://neetcode.io/problems/partition-labels) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/partition-labels) |
+| 5  | [Non-Overlapping Intervals](https://neetcode.io/problems/non-overlapping-intervals) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/non-overlapping-intervals) |
+| 6  | [Hand of Straights](https://neetcode.io/problems/hand-of-straights) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/hand-of-straights) |
+| 7  | [Merge Triplets to Form Target](https://neetcode.io/problems/merge-triplets-to-form-target) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/merge-triplets-to-form-target) |
+| 8  | [Valid Parenthesis String](https://neetcode.io/problems/valid-parenthesis-string) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/valid-parenthesis-string) |
+| 9  | [Best Time to Buy and Sell Stock II](https://neetcode.io/problems/best-time-to-buy-and-sell-stock-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/best-time-to-buy-and-sell-stock-ii) |
+
+---
+
+## Intervals
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Merge Intervals](https://neetcode.io/problems/merge-intervals) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/merge-intervals) |
+| 2  | [Insert New Interval](https://neetcode.io/problems/insert-new-interval) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/insert-new-interval) |
+| 3  | [Non-Overlapping Intervals](https://neetcode.io/problems/non-overlapping-intervals) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/non-overlapping-intervals) |
+| 4  | [Meeting Schedule](https://neetcode.io/problems/meeting-schedule) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/meeting-schedule) |
+| 5  | [Meeting Schedule II](https://neetcode.io/problems/meeting-schedule-ii) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/meeting-schedule-ii) |
+| 6  | [Minimum Interval Including Query](https://neetcode.io/problems/minimum-interval-including-query) | Hard | [Solution](Data%20Structures%20%26%20Algorithms/minimum-interval-including-query) |
+
+---
+
+## Math & Geometry
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Pow(x, n)](https://neetcode.io/problems/pow-x-n) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/pow-x-n) |
+| 2  | [Multiply Strings](https://neetcode.io/problems/multiply-strings) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/multiply-strings) |
+| 3  | [Rotate Matrix](https://neetcode.io/problems/rotate-matrix) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/rotate-matrix) |
+| 4  | [Spiral Matrix](https://neetcode.io/problems/spiral-matrix) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/spiral-matrix) |
+| 5  | [Set Zeroes in Matrix](https://neetcode.io/problems/set-zeroes-in-matrix) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/set-zeroes-in-matrix) |
+| 6  | [Non-Cyclical Number](https://neetcode.io/problems/non-cyclical-number) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/non-cyclical-number) |
+| 7  | [Reverse Integer](https://neetcode.io/problems/reverse-integer) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/reverse-integer) |
+
+---
+
+## Bit Manipulation
+
+| #  | Problem | Difficulty | Solution |
+|----|---------|------------|----------|
+| 1  | [Number of One Bits](https://neetcode.io/problems/number-of-one-bits) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/number-of-one-bits) |
+| 2  | [Sum of Two Integers](https://neetcode.io/problems/sum-of-two-integers) | Medium | [Solution](Data%20Structures%20%26%20Algorithms/sum-of-two-integers) |
+| 3  | [Counting Bits](https://neetcode.io/problems/counting-bits) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/counting-bits) |
+| 4  | [Reverse Bits](https://neetcode.io/problems/reverse-bits) | Easy | [Solution](Data%20Structures%20%26%20Algorithms/reverse-bits) |
+
+---
