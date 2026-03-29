@@ -1,7 +1,7 @@
 
 ## Welcome to My NeetCode All Tracker
 
-When I'm not committing projects to my github, I like to track my leetcoding progress with this repository. Currently, I'm working on completing the neetcode 250, and looking to complete the leetcode 250 thereafter to make sure my Data Structures and Algorithms skills are always sharp. This was originally a tracker for the 150, but I decided to add NeetCode's new 250 questions, so I'll be adding to some of the completed questions here. Now that neetcode's github integration is here, any new solutions will have their links updated in this repository
+When I'm not committing projects to my github, I like to track my leetcoding progress with this repository. Currently, I'm working on completing the neetcode 250, and looking to complete the leetcode 250 thereafter to make sure my Data Structures and Algorithms skills are always sharp. This was originally a tracker for the 150, but I decided to add NeetCode's new 250 questions, so I'll be adding to some of the completed questions here. Now that neetcode's github integration is here, any new solutions will have their links updated in this repository. Additional Submissions are for questions that I'm reattempting to ease off some rust or to refresh my memory in dealing with core concepts
 
 ---
 
